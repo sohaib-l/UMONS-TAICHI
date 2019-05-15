@@ -21,26 +21,7 @@ Kinect data were then manually synchronized with Qualisys data. Synchronized dat
 
 ## Download
 
-### Qualisys
-#### C3D
-Unsegmented: http://tcts.fpms.ac.be/~tits/C3D.zip
-
-Segmented: http://tcts.fpms.ac.be/~tits/Segmented_C3D.zip
-(note: segmented c3d files were converted from tsv files using [Visual3D](http://www2.c-motion.com/products/visual3d/)).
-
-#### TSV
-Unsegmented: http://tcts.fpms.ac.be/~tits/TSV.zip
-
-Segmented: http://tcts.fpms.ac.be/~tits/Segmented_TSV.zip
-
-### Kinect
-Unsegmented (.txt): http://tcts.fpms.ac.be/~tits/Kinect.zip
-
-Segmented (.txt): http://tcts.fpms.ac.be/~tits/Segmented_Kinect.zip
-
-### Labels
-(.lab):  http://tcts.fpms.ac.be/~tits/Labels.zip
-
+Qualisys data (C3D and TSV), Kinect data (TXT) and labels (LAB) can be downloaded from Zenodo: https://zenodo.org/record/2784581
 
 
 All files can be used with the [MotionMachine](https://github.com/numediart/ofxMotionMachine) framework. Please use the parser provided in this repository for kinect (.txt) data.
